@@ -1,0 +1,5 @@
+interface:
+  display_name: "AI Coding Workflow"
+  short_description: "Disciplined coding, review, verification, and release-readiness workflow."
+  icon: "Code"
+  primary_color: "#2563EB"

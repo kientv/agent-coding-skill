@@ -1,0 +1,39 @@
+{
+  "name": "agent-coding-skill",
+  "version": "0.1.0",
+  "description": "Structured coding workflow for careful implementation, verification, review, and release-readiness decisions.",
+  "author": {
+    "name": "Kien Tran"
+  },
+  "homepage": "https://github.com/kientv/agent-coding-skill",
+  "repository": "https://github.com/kientv/agent-coding-skill",
+  "license": "MIT",
+  "keywords": [
+    "coding-workflow",
+    "skills",
+    "planning",
+    "verification",
+    "code-review",
+    "release-readiness",
+    "design-system"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Agent Coding Skill",
+    "shortDescription": "Disciplined coding workflow with verification and release gates",
+    "longDescription": "Use Agent Coding Skill to guide coding agents through understanding, planning, small implementation steps, verification evidence, final diff review, and release-readiness decisions.",
+    "developerName": "Kien Tran",
+    "category": "Coding",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Review this project and make the smallest safe change.",
+      "Help me implement this feature with verification and a release recommendation."
+    ],
+    "websiteURL": "https://github.com/kientv/agent-coding-skill",
+    "brandColor": "#2563EB"
+  }
+}

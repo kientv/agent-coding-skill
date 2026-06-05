@@ -1,0 +1,5 @@
+interface:
+  display_name: "AI Coding Workflow"
+  short_description: "Disciplined coding, review, verification, and release-readiness workflow."
+  brand_color: "#2563EB"
+  default_prompt: "Help me make a small, verified coding change and end with a release recommendation."
